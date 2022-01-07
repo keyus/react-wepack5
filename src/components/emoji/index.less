@@ -1,0 +1,52 @@
+.emoji-native {
+    font-family: "Segoe UI Emoji", "Segoe UI Symbol", "Segoe UI", "Apple Color Emoji", "Twemoji Mozilla", "Noto Color Emoji", "Android Emoji";
+}
+
+.emoji-modal {
+    .ant-popover-arrow {
+        bottom: 3px;
+    }
+
+    .ant-popover-inner {
+        background-color: transparent;
+
+        .ant-popover-inner-content {
+            background-color: #fff;
+            padding         : 6px;
+            border          : 1px solid #ddd;
+            border-radius   : 8px;
+        }
+    }
+
+}
+
+.emoji-wrapper {
+    width     : 338px;
+    padding   : 6px;
+    margin    : 0;
+    display   : flex;
+    flex-wrap : wrap;
+    list-style: none;
+
+    li {
+        margin    : 0;
+        padding   : 0;
+        width     : 36px;
+        height    : 36px;
+        cursor    : pointer;
+        text-align: center;
+
+        &:hover {
+            background-color: #f4f4f4;
+            border-radius   : 100%;
+        }
+
+        span {
+            display   : inline-block;
+            width     : 24px;
+            height    : 24px;
+            font-size : 24px;
+            word-break: keep-all;
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "jsx": "react-jsx",
+    "types": [
+      "react/next",
+      "react-dom/next"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@util": [
+        "./util"
+      ],
+      "@util/*": [
+        "./util/*"
+      ],
+      "@http": [
+        "./util/http.ts"
+      ],
+      "@com/*": [
+        "./components/*"
+      ],
+      "@store": [
+        "./store/index.ts"
+      ],
+      "@store/*": [
+        "./store/*"
+      ],
+      "@config": [
+        "./config"
+      ],
+      "@style/*": [
+        "./assets/style"
+      ],
+      "@img/*": [
+        "./assets/img"
+      ],
+      "@page": [
+        "./page"
+      ],
+      "@page/*": [
+        "./page/*"
+      ]
+    }
+  },
+  "include": [
+    "src/global.d.ts",
+    "src"
+  ]
+}

@@ -1,0 +1,142 @@
+html,
+body,
+#root {
+    height: 100%;
+}
+
+
+.main-layout {
+    height: 100%;
+
+    .main-side {
+        background-color: #001529;
+
+        .ant-layout-sider-children {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-logo {
+            height: 64px;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            padding-left: 15px;
+
+            svg {
+                width: 36px;
+                height: 36px;
+            }
+
+            &.collapsed {
+                justify-content: center;
+                padding-left: 0;
+
+                span.app-name {
+                    opacity: 1;
+                    transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s, color 0.3s;
+                    display: none;
+                }
+
+                .anticon {
+                    margin-right: 0;
+                }
+            }
+
+            .anticon {
+                font-size: 24px;
+                color: #61DAFB;
+            }
+
+            span.app-name {
+                overflow: hidden;
+                height: 25px;
+                line-height: 25px;
+                text-overflow: ellipsis;
+                opacity: 1;
+                transition: opacity 0.3s cubic-bezier(0.645, 0.045, 0.355, 1), margin 0.3s, color 0.3s;
+                margin-left: 10px;
+            }
+        }
+
+        .side-auto {
+            flex: 1;
+            min-height: 1%;
+            overflow: hidden auto;
+        }
+
+        .sider-links {
+            border-top: 1px solid rgba(0, 0, 0, .25);
+            height: 48px;
+            line-height: 40px;
+            padding: 4px 16px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+    }
+
+    .main-body {
+        overflow: hidden auto;
+
+        .main-header {
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            line-height: inherit;
+            height: 48px;
+            padding: 0 20px 0 6px;
+
+            .left {
+                flex: 1;
+                display: flex;
+                align-items: center;
+
+                .toggle-side {
+                    cursor: pointer;
+                    width: 48px;
+                    height: 48px;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 18px;
+
+                    &:hover {
+                        background-color: rgba(60, 64, 67, 0.078);
+                    }
+                }
+
+                
+            }
+
+            .right {
+                display: flex;
+                align-items: center;
+
+                .user {
+                    display: block;
+                    padding: 6px;
+                    border-radius: 30px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.04);
+                    }
+
+                    .name {
+                        margin-right: 10px;
+                        font-weight: 500;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .main-page {
+            padding: 15px;
+        }
+    }
+
+}

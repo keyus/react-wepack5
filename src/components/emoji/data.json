@@ -1,0 +1,284 @@
+{
+    "emojis": {
+        "grinning": {
+            "code": "1F600",
+            "value": "😀"
+        },
+        "sweat_smile": {
+            "code": "1F605",
+            "value": "😅"
+        },
+        "rolling_on_the_floor_laughing": {
+            "code": "1F923",
+            "value": "🤣"
+        },
+        "joy": {
+            "code": "1F602",
+            "value": "😂"
+        },
+        "slightly_smiling_face": {
+            "code": "1F642",
+            "value": "🙂"
+        },
+        "upside_down_face": {
+            "code": "1F643",
+            "value": "🙃"
+        },
+        "wink": {
+            "code": "1F609",
+            "value": "😉"
+        },
+        "blush": {
+            "code": "1F60A",
+            "value": "😊"
+        },
+        "innocent": {
+            "code": "1F607",
+            "value": "😇"
+        },
+        "ok_hand": {
+            "code": "1F44C",
+            "value": "👌"
+        },
+        "heart_eyes": {
+            "code": "1F60D",
+            "value": "😍"
+        },
+        "kissing_heart": {
+            "code": "1F618",
+            "value": "😘"
+        },
+        "kissing": {
+            "code": "1F617",
+            "value": "😗"
+        },
+        "+1": {
+            "code": "1F44D",
+            "value": "👍"
+        },
+        "kissing_closed_eyes": {
+            "code": "1F61A",
+            "value": "😚"
+        },
+        "-1": {
+            "code": "1F44E",
+            "value": "👎"
+        },
+        "fist": {
+            "code": "270A",
+            "value": "✊"
+        },
+        "kissing_smiling_eyes": {
+            "code": "1F619",
+            "value": "😙"
+        },
+        "facepunch": {
+            "code": "1F44A",
+            "value": "👊"
+        },
+        "yum": {
+            "code": "1F60B",
+            "value": "😋"
+        },
+        "stuck_out_tongue": {
+            "code": "1F61B",
+            "value": "😛"
+        },
+        "stuck_out_tongue_winking_eye": {
+            "code": "1F61C",
+            "value": "😜"
+        },
+        "right-facing_fist": {
+            "code": "1F91C",
+            "value": "🤜"
+        },
+        "clap": {
+            "code": "1F44F",
+            "value": "👏"
+        },
+        "zany_face": {
+            "code": "1F92A",
+            "value": "🤪"
+        },
+        "stuck_out_tongue_closed_eyes": {
+            "code": "1F61D",
+            "value": "😝"
+        },
+        "money_mouth_face": {
+            "code": "1F911",
+            "value": "🤑"
+        },
+        "hugging_face": {
+            "code": "1F917",
+            "value": "🤗"
+        },
+        "handshake": {
+            "code": "1F91D",
+            "value": "🤝"
+        },
+        "shushing_face": {
+            "code": "1F92B",
+            "value": "🤫"
+        },
+        "pray": {
+            "code": "1F64F",
+            "value": "🙏"
+        },
+        "thinking_face": {
+            "code": "1F914",
+            "value": "🤔"
+        },
+        "face_with_raised_eyebrow": {
+            "code": "1F928",
+            "value": "🤨"
+        },
+        "smirk": {
+            "code": "1F60F",
+            "value": "😏"
+        },
+        "unamused": {
+            "code": "1F612",
+            "value": "😒"
+        },
+        "face_with_rolling_eyes": {
+            "code": "1F644",
+            "value": "🙄"
+        },
+        "grimacing": {
+            "code": "1F62C",
+            "value": "😬"
+        },
+        "lying_face": {
+            "code": "1F925",
+            "value": "🤥"
+        },
+        "pensive": {
+            "code": "1F614",
+            "value": "😔"
+        },
+        "sleepy": {
+            "code": "1F62A",
+            "value": "😪"
+        },
+        "sleeping": {
+            "code": "1F634",
+            "value": "😴"
+        },
+        "mask": {
+            "code": "1F637",
+            "value": "😷"
+        },
+        "face_with_thermometer": {
+            "code": "1F912",
+            "value": "🤒"
+        },
+        "face_with_head_bandage": {
+            "code": "1F915",
+            "value": "🤕"
+        },
+        "sneezing_face": {
+            "code": "1F927",
+            "value": "🤧"
+        },
+        "hot_face": {
+            "code": "1F975",
+            "value": "🥵"
+        },
+        "sunglasses": {
+            "code": "1F60E",
+            "value": "😎"
+        },
+        "flushed": {
+            "code": "1F633",
+            "value": "😳"
+        },
+        "pleading_face": {
+            "code": "1F97A",
+            "value": "🥺"
+        },
+        "frowning": {
+            "code": "1F626",
+            "value": "😦"
+        },
+        "anguished": {
+            "code": "1F627",
+            "value": "😧"
+        },
+        "fearful": {
+            "code": "1F628",
+            "value": "😨"
+        },
+        "cold_sweat": {
+            "code": "1F630",
+            "value": "😰"
+        },
+        "cry": {
+            "code": "1F622",
+            "value": "😢"
+        },
+        "sob": {
+            "code": "1F62D",
+            "value": "😭"
+        },
+        "scream": {
+            "code": "1F631",
+            "value": "😱"
+        },
+        "sweat": {
+            "code": "1F613",
+            "value": "😓"
+        },
+        "weary": {
+            "code": "1F629",
+            "value": "😩"
+        },
+        "tired_face": {
+            "code": "1F62B",
+            "value": "😫"
+        },
+        "yawning_face": {
+            "code": "1F971",
+            "value": "🥱"
+        },
+        "triumph": {
+            "code": "1F624",
+            "value": "😤"
+        },
+        "rage": {
+            "code": "1F621",
+            "value": "😡"
+        },
+        "angry": {
+            "code": "1F620",
+            "value": "😠"
+        },
+        "smiling_imp": {
+            "code": "1F608",
+            "value": "😈"
+        },
+        "imp": {
+            "code": "1F47F",
+            "value": "👿"
+        },
+        "see_no_evil": {
+            "code": "1F648",
+            "value": "🙈"
+        },
+        "hear_no_evil": {
+            "code": "1F649",
+            "value": "🙉"
+        },
+        "speak_no_evil": {
+            "code": "1F64A",
+            "value": "🙊"
+        },
+        "two_hearts": {
+            "code": "1F495",
+            "value": "💕"
+        },
+        "broken_heart": {
+            "code": "1F494",
+            "value": "💔"
+        }
+    }
+}
